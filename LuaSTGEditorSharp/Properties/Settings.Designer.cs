@@ -25,7 +25,7 @@ namespace LuaSTGEditorSharp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool IgnoreTHLibWarn {
             get {
                 return ((bool)(this["IgnoreTHLibWarn"]));
@@ -37,7 +37,7 @@ namespace LuaSTGEditorSharp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool UseFolderPacking {
             get {
                 return ((bool)(this["UseFolderPacking"]));
@@ -61,7 +61,7 @@ namespace LuaSTGEditorSharp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../game/LuaSTGFlux.exe")]
         public string LuaSTGExecuteablePath {
             get {
                 return ((string)(this["LuaSTGExecuteablePath"]));
@@ -289,7 +289,7 @@ namespace LuaSTGEditorSharp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Light")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Dark")]
         public string Editortheme {
             get {
                 return ((string)(this["Editortheme"]));
@@ -337,7 +337,7 @@ namespace LuaSTGEditorSharp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("LightTheme")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DarkTheme")]
         public string CurrentTheme {
             get {
                 return ((string)(this["CurrentTheme"]));
@@ -349,7 +349,7 @@ namespace LuaSTGEditorSharp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool CheckUpdateAtLaunch {
             get {
                 return ((bool)(this["CheckUpdateAtLaunch"]));
